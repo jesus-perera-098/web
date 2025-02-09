@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightpink;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.gif {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#texto {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 20px;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.btn {
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: deeppink;
+}
+
+#btn-no {
+  position: relative;
+}
+
+#btn-descargar {
+  margin-top: 2px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Estilo del botón de música */
+#play-music {
+  position: absolute;
+  top: 20px; /* Espaciado desde la parte superior */
+  left: 20px; /* Espaciado desde el borde izquierdo */
+  background-color: hotpink; /* Color de fondo consistente */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px; /* Tamaño de texto */
+  transition: all 0.3s ease;
+  z-index: 100; /* Asegura que esté encima del contenido */
+}
+
+#play-music:hover {
+  background-color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
